@@ -443,7 +443,7 @@ Avg Time:   2.135s/URL
 | KnowPhish | 2024 | 92.05% | 91.44% | ✗ | — |
 | PhishAgent | 2024 | 96.10% | 96.13% | ✗ | — |
 | Phisher | 2025 | 98.13% | 98.00% | ✗ | — |
-| **PhishLens** | **2025** | **99.40%** | **99.32%** | **✓** | **Web + Extension** |
+| **PhishLens** | **2026** | **99.40%** | **99.32%** | **✓** | **Web + Extension** |
 
 PhishLens is the **only system** among all tested methods that provides:
 - Structured LLM-powered explainability
