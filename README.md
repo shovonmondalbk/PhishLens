@@ -535,7 +535,7 @@ If you use PhishLens in your research, please cite:
 @article{phishlens2025,
   title   = {PhishLens: A Multi-Modal, LLM-Powered Phishing Website Detection System},
   author  = {Shovon Mondal and Chandan Paul},
-  year    = {2025},
+  year    = {2026},
   note    = {Department of Computer Science and Engineering, University of Dhaka}
 }
 ```
