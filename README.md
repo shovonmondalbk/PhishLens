@@ -509,9 +509,7 @@ PhishLens/
 
 3. **Visual analyzer scope:** CLIP zero-shot covers 45 brands. Dedicated YOLOv8 logo detector (in development) will expand coverage and enable spatial localization.
 
-4. **Benchmark composition:** 1,000-URL live evaluation reflects a specific time window. Extended longitudinal testing is planned.
-
-5. **English-only:** Current models are optimized for English-language phishing content.
+4. **English-only:** Current models are optimized for English-language phishing content.
 
 ---
 
