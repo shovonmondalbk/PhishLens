@@ -1,0 +1,58 @@
+{
+    "version": "1.1.0",
+    "project": "PhishLens",
+    "whitelist": {
+        "enabled": true,
+        "domains": [
+            
+        ],
+        "skip_analysis": true,
+        "auto_safe_score": 0.0
+    },
+    "blacklist": {
+        "enabled": true,
+        "domains": [],
+        "auto_phishing_score": 100.0
+    },
+    "analyzers": {
+        "url": {
+            "enabled": true,
+            "model_path": "backend/models/url/final_model",
+            "weight": 0.4
+        },
+        "html": {
+            "enabled": true,
+            "model_path": "backend/models/html/final_model",
+            "weight": 0.4
+        },
+        "visual": {
+            "enabled": true,
+            "weight": 0.2,
+            "brand_model_path": "backend/models/visual/yolo_brand_logos/brand_detector/weights/best.pt",
+            "brand_domains_path": "backend/inference/brand_domains.json",
+            "classes_path": "data/logos/brand_logos_yolo/classes.txt",
+            "yolo_confidence_threshold": 0.5,
+            "fallback_threshold": 0.2
+        }
+    },
+    "thresholds": {
+        "phishing_threshold": 50.0,
+        "high_confidence": 80.0,
+        "brand_mismatch_boost": 0.6
+    },
+    "settings": {
+        "timeout": 15,
+        "screenshot_width": 1280,
+        "screenshot_height": 720
+    },
+    "llm": {
+        "enabled": false,
+        "model_name": "unsloth/llama-3-8b-Instruct",
+        "device": "cpu",
+        "use_quantization": false,
+        "max_new_tokens": 200,
+        "temperature": 0.7,
+        "fallback_to_template": true,
+        "_comment": "Set 'enabled': true for LLM explanations (slow on CPU). Set 'enabled': false for instant template explanations."
+    }
+}
