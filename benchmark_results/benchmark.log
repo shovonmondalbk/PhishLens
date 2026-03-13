@@ -1,0 +1,26 @@
+2026-03-09 13:17:43,991 [INFO] Loading dataset from: C:\PhishLens\data\raw\url\phishlens_url_dataset.csv
+2026-03-09 13:17:44,063 [INFO] Loaded 100000 URLs
+2026-03-09 13:17:44,065 [INFO] Label column: 'label' — {0: 50000, 1: 50000}
+2026-03-09 13:17:44,088 [INFO] Available: 44206 phishing, 50000 legitimate
+2026-03-09 13:17:44,124 [INFO] Test dataset: 20000 URLs (10000 phishing, 10000 legit) -> C:\PhishLens\benchmark_results\phishlens_test_20k_dataset.csv
+2026-03-09 13:17:44,127 [INFO] ============================================================
+2026-03-09 13:17:44,129 [INFO] Loading PhishLens Fusion Engine...
+2026-03-09 13:17:49,086 [INFO] [OK] Fusion Engine V2.3 loaded (URL + HTML + Visual inside)
+2026-03-09 13:17:52,292 [INFO] ============================================================
+2026-03-11 02:53:33,665 [INFO] Loading dataset from: C:\PhishLens\data\raw\url\phishlens_url_dataset.csv
+2026-03-11 02:53:33,758 [INFO] Loaded 100000 URLs
+2026-03-11 02:53:33,762 [INFO] Label column: 'label' — {0: 50000, 1: 50000}
+2026-03-11 02:53:33,787 [INFO] Available: 44206 phishing, 50000 legitimate
+2026-03-11 02:53:33,823 [INFO] Test dataset: 20000 URLs (10000 phishing, 10000 legit) -> C:\PhishLens\benchmark_results\phishlens_test_20k_dataset.csv
+2026-03-11 02:53:33,825 [INFO] ============================================================
+2026-03-11 02:53:33,826 [INFO] Loading PhishLens Fusion Engine...
+2026-03-11 02:53:54,266 [INFO] [OK] Fusion Engine V2.3 loaded (URL + HTML + Visual inside)
+2026-03-11 02:54:00,702 [INFO] ============================================================
+2026-03-11 02:57:12,272 [INFO] ============================================================
+2026-03-11 02:57:12,272 [INFO] Loading PhishLens Fusion Engine...
+2026-03-11 02:57:17,428 [INFO] [OK] Fusion Engine V2.3 loaded (URL + HTML + Visual inside)
+2026-03-11 02:57:20,421 [INFO] ============================================================
+2026-03-11 06:01:41,894 [INFO] ============================================================
+2026-03-11 06:01:41,894 [INFO] Loading PhishLens Fusion Engine...
+2026-03-11 06:01:47,169 [INFO] [OK] Fusion Engine V2.3 loaded (URL + HTML + Visual inside)
+2026-03-11 06:01:50,610 [INFO] ============================================================
