@@ -1,0 +1,35 @@
+======================================================================
+PhishLens Fusion Engine V2.3 - 20K Benchmark Report
+Generated: 2026-03-11 09:10:45
+Random Seed: 42
+======================================================================
+
+DATASET
+  Total URLs:       20000
+  Phishing:         10000
+  Legitimate:       10000
+  Tested:           20000 (100.0%)
+  Failed:           0
+
+FUSION ENGINE RESULTS 
+--------------------------------------------------
+  Accuracy:         99.40%
+  Precision:        99.71%
+  Recall:           99.09%
+  F1-Score:         99.40%
+  FPR:              0.29%
+  FNR:              0.91%
+
+CONFUSION MATRIX
+                    Predicted
+                    Legit    Phish
+    Actual Legit      9971       29
+    Actual Phish      91     9909
+
+PER-CLASS
+  Phishing Detection Rate:   99.09% (8809/10000)
+  Legitimate Accuracy:       99.71% (9961/10000)
+
+  Avg Inference Time:        2.135s per URL
+  Total Time:                42700s
+======================================================================
