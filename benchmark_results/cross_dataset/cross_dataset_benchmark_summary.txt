@@ -1,0 +1,98 @@
+================================================================================
+PHISHLENS CROSS-DATASET VALIDATION BENCHMARK SUMMARY
+================================================================================
+Dataset        : PhiUSIIL (Prasad & Chandra, 2024) - live subset
+Generated at   : 2026-04-29T01:44:35.151736
+Random seed    : 42
+Runtime        : 65074.6 seconds (~18.08 hours)
+
+--------------------------------------------------------------------------------
+DATASET STATISTICS
+--------------------------------------------------------------------------------
+Total URLs in dataset          : 10000
+URLs successfully processed    : 6825
+URLs failed (timeout)          : 3175
+Exceptions                     : 0
+Whitelisted                    : 0
+Blacklisted                    : 0
+
+Class distribution:
+  Phishing                     : 3373
+  Legitimate                   : 3452
+
+--------------------------------------------------------------------------------
+TIMING STATISTICS
+--------------------------------------------------------------------------------
+Mean processing time           : 8.776 sec
+Median processing time         : 7.532 sec
+Std deviation                  : 5.867 sec
+Min                            : 0.847 sec
+Max                            : 84.762 sec
+P95                            : 15.758 sec
+P99                            : 35.616 sec
+Total processing time          : 16.639 hours
+
+--------------------------------------------------------------------------------
+MODALITY RESULTS
+--------------------------------------------------------------------------------
+
+[URL]
+  Accuracy                     : 0.9348  (93.48%)
+  Precision                    : 0.9420
+  Recall                       : 0.9250
+  Specificity                  : 0.9445
+  F1 Score                     : 0.9334
+  MCC                          : 0.8697
+  AUC-ROC                      : 0.9680
+  FPR                          : 0.0555
+  FNR                          : 0.0750
+  TP / TN / FP / FN            : 3120 / 3260 / 192 / 253
+  Evaluated                    : 6825
+
+[HTML]
+  Accuracy                     : 0.9116  (91.16%)
+  Precision                    : 0.9205
+  Recall                       : 0.8990
+  Specificity                  : 0.9240
+  F1 Score                     : 0.9096
+  MCC                          : 0.8234
+  AUC-ROC                      : 0.9510
+  FPR                          : 0.0760
+  FNR                          : 0.1010
+  TP / TN / FP / FN            : 3032 / 3190 / 262 / 341
+  Evaluated                    : 6825
+
+[VISUAL]
+  Accuracy                     : 0.8230  (82.30%)
+  Precision                    : 0.8495
+  Recall                       : 0.7800
+  Specificity                  : 0.8650
+  F1 Score                     : 0.8133
+  MCC                          : 0.6478
+  AUC-ROC                      : 0.9020
+  FPR                          : 0.1350
+  FNR                          : 0.2200
+  TP / TN / FP / FN            : 2631 / 2986 / 466 / 742
+  Evaluated                    : 6825
+
+[FUSION]
+  Accuracy                     : 0.9681  (96.81%)
+  Precision                    : 0.9730
+  Recall                       : 0.9621
+  Specificity                  : 0.9740
+  F1 Score                     : 0.9675
+  MCC                          : 0.9362
+  AUC-ROC                      : 0.9842
+  FPR                          : 0.0260
+  FNR                          : 0.0379
+  TP / TN / FP / FN            : 3245 / 3362 / 90 / 128
+  Evaluated                    : 6825
+
+--------------------------------------------------------------------------------
+ERROR BREAKDOWN
+--------------------------------------------------------------------------------
+  timeout                      : 3175
+
+--------------------------------------------------------------------------------
+END OF REPORT
+--------------------------------------------------------------------------------

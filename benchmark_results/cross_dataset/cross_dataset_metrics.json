@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "total_urls_in_dataset": 10000,
+    "urls_successfully_processed": 6825,
+    "urls_failed": 3175,
+    "timeouts": 3175,
+    "exceptions": 0,
+    "whitelisted": 0,
+    "blacklisted": 0,
+    "runtime_seconds": 65074.6,
+    "random_seed": 42,
+    "dataset": "PhiUSIIL (Prasad & Chandra, 2024) - live subset",
+    "generated_at": "2026-04-29T01:44:35.151736"
+  },
+  "class_distribution": {
+    "phishing": 3373,
+    "legitimate": 3452
+  },
+  "modalities": {
+    "url": {
+      "accuracy": 0.934798534798535,
+      "precision": 0.942028985507246,
+      "recall": 0.924992588200415,
+      "specificity": 0.944380069524913,
+      "f1_score": 0.933433059087509,
+      "fpr": 0.055619930475087,
+      "fnr": 0.075007411799585,
+      "mcc": 0.869691654068467,
+      "total": 6825,
+      "auc_roc": 0.968,
+      "n_evaluated": 6825
+    },
+    "html": {
+      "accuracy": 0.911648351648352,
+      "precision": 0.920461445051609,
+      "recall": 0.898903053661429,
+      "specificity": 0.924101969872538,
+      "f1_score": 0.909554522273886,
+      "fpr": 0.075898030127462,
+      "fnr": 0.101096946338571,
+      "mcc": 0.823446511516806,
+      "total": 6825,
+      "auc_roc": 0.951,
+      "n_evaluated": 6825
+    },
+    "visual": {
+      "accuracy": 0.823003663003663,
+      "precision": 0.849531804972554,
+      "recall": 0.780017788319004,
+      "specificity": 0.865005793742758,
+      "f1_score": 0.813292117465224,
+      "fpr": 0.134994206257242,
+      "fnr": 0.219982211680996,
+      "mcc": 0.647754743985769,
+      "total": 6825,
+      "auc_roc": 0.902,
+      "n_evaluated": 6825
+    },
+    "fusion": {
+      "accuracy": 0.968058608058608,
+      "precision": 0.973013493253373,
+      "recall": 0.962051586125111,
+      "specificity": 0.973928157589803,
+      "f1_score": 0.967501490757305,
+      "fpr": 0.026071842410197,
+      "fnr": 0.037948413874889,
+      "mcc": 0.936158492533336,
+      "total": 6825,
+      "auc_roc": 0.9842,
+      "n_evaluated": 6825
+    }
+  },
+  "timing": {
+    "mean_sec": 8.776448351648352,
+    "median_sec": 7.532,
+    "std_sec": 5.8671853065626705,
+    "min_sec": 0.847,
+    "max_sec": 84.762,
+    "p95_sec": 15.757599999999988,
+    "p99_sec": 35.61608000000007,
+    "total_processing_hours": 16.638683333333333
+  },
+  "error_breakdown": {
+    "timeout": 3175
+  }
+}
